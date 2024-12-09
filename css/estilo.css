@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    padding-top: 80px;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.nav {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 120px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #7ABA96;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px 20px;
+    background-color: #fff;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+.about-me,
+.subscribe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-me img,
+.subscribe img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe img {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+}
+
+.post {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.post-title a:hover {
+    color: #7ABA96;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    width: 45%;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #7ABA96;
+}
+
+.logo-container {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
