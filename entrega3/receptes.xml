@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xslt"?>
+<recetas>
+    <receta>
+        <titulo>Paella</titulo>
+        <ingredientes>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Mariscos</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Cocinar el arroz.</paso>
+            <paso>Agregar el pollo y los mariscos.</paso>
+            <paso>Servir caliente.</paso>
+        </instrucciones>
+    </receta>
+    <receta>
+        <titulo>Gazpacho</titulo>
+        <ingredientes>
+            <ingrediente>Tomates</ingrediente>
+            <ingrediente>Pimientos</ingrediente>
+            <ingrediente>Pan</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Mezclar todos los ingredientes.</paso>
+            <paso>Enfriar en la nevera.</paso>
+            <paso>Servir frío.</paso>
+        </instrucciones>
+    </receta>
+    <receta>
+        <titulo>Tortilla de Patatas</titulo>
+        <ingredientes>
+            <ingrediente>Patatas</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+            <ingrediente>Cebolla</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Freír las patatas y la cebolla.</paso>
+            <paso>Mezclar con los huevos batidos.</paso>
+            <paso>Cocinar en una sartén.</paso>
+        </instrucciones>
+    </receta>
+</recetas>
