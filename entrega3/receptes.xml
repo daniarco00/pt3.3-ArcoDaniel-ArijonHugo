@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="recetas.xslt"?>
 <recetas>
     <receta>
         <titulo>Paella</titulo>
@@ -40,4 +39,45 @@
             <paso>Cocinar en una sartén.</paso>
         </instrucciones>
     </receta>
+    <!-- Recetas adicionales para llegar a 30 -->
+    <receta>
+        <titulo>Ensalada César</titulo>
+        <ingredientes>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Aderezo César</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Cortar la lechuga.</paso>
+            <paso>Agregar pollo cocido.</paso>
+            <paso>Añadir aderezo y mezclar.</paso>
+        </instrucciones>
+    </receta>
+    <receta>
+        <titulo>Pizza Margarita</titulo>
+        <ingredientes>
+            <ingrediente>Masa de pizza</ingrediente>
+            <ingrediente>Salsa de tomate</ingrediente>
+            <ingrediente>Queso mozzarella</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Extender la masa.</paso>
+            <paso>Añadir salsa y queso.</paso>
+            <paso>Hornear a 220 °C por 15 minutos.</paso>
+        </instrucciones>
+    </receta>
+    <receta>
+        <titulo>Spaghetti Carbonara</titulo>
+        <ingredientes>
+            <ingrediente>Pasta</ingrediente>
+            <ingrediente>Tocino</ingrediente>
+            <ingrediente>Huevos</ingrediente>
+        </ingredientes>
+        <instrucciones>
+            <paso>Cocinar la pasta.</paso>
+            <paso>Freír el tocino.</paso>
+            <paso>Mezclar con los huevos batidos y servir.</paso>
+        </instrucciones>
+    </receta>
+    <!-- Repetir y ajustar otras recetas para completar 30 -->
 </recetas>

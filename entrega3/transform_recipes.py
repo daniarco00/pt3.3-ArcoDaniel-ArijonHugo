@@ -1,8 +1,8 @@
 from lxml import etree
 
 # Cargar los archivos XML y XSLT
-xml_file = 'recetas.xml'
-xslt_file = 'recetas.xslt'
+xml_file = 'receptes.xml'
+xslt_file = 'recipes-to-html.xslt'
 
 # Parsear los archivos
 xml = etree.parse(xml_file)
